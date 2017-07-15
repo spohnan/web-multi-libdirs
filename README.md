@@ -22,7 +22,7 @@ An oddity I noticed was if you run `mvn clean package` (two goals instead of one
 is executed for each module so the copy of the libs gets wiped out when the web module is packaged. Running
 one at a time gives the expected results.
 
-## Results
+### Results
 
 ```
 web/target/web
